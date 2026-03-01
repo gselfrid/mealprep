@@ -1,0 +1,145 @@
+:root{
+    --ylw: #ffe587;
+    --bl: #8987ff;
+    --rd: #ff8787;
+    --grn: #87ff8d;
+    --dk-rd: #470000;
+}
+
+html{
+    background-color: var(--dk-rd);
+}
+
+body{
+    max-width: 480px;
+    height: 100%;
+    margin: auto;
+    padding-top: 0.5rem;
+    background-color: var(--ylw);
+    color: var(--dk-rd);
+}
+
+header{
+    text-align: center;
+    background-color: var(--ylw);
+    margin: 1rem auto;
+}
+
+header p{
+    padding: 2rem;
+}
+
+nav{
+    width: 100%;
+    margin: 0 auto;
+    border-top: 10px solid var(--dk-rd);
+    border-bottom: 10px solid var(--dk-rd);
+}
+
+nav h2{
+    text-align: center;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    justify-items: center;
+    width: 100%;
+    padding: 0;
+}
+
+nav li {
+    list-style: none;
+    width: 100%;
+}
+
+nav a{
+    color: var(--dk-rd);
+    display: block;
+    width: 85%;
+    padding: 1rem; 
+    margin: auto;
+    text-decoration: none;
+    background-color: var(--bl);
+    text-align: center;
+}
+
+nav a:hover{
+    color: var(--dk-rd);
+    display: block;
+    width: 85%;
+    padding: 1rem; 
+    margin: auto;
+    text-decoration: none;
+    background-color: white;
+    border: 3px solid var(--bl);
+    text-align: center;
+}
+
+main h2{
+    text-align: center;
+}
+
+main section{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-top: dotted 3px;
+}
+
+section h3{
+    text-align: center;
+    padding: 1rem 0.5rem;
+}
+
+section div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+section div li{
+    font-size: 115%;
+    margin: auto 3rem;
+}
+
+main img{
+    width: 70%;
+    margin: 1rem auto;
+    border-radius: 50px;
+    border-bottom: solid 5px var(--dk-rd);
+    border-right: solid 5px var(--dk-rd);
+}
+
+#spaghetti{
+    background-color: var(--rd);
+}
+
+#tacos{
+    background-color: var(--grn);
+}
+
+#salmon{
+    background-color: var(--rd);
+}
+
+#sushi{
+    background-color: var(--bl);
+}
+
+#taco-salad{
+    background-color: var(--grn);
+}
+
+#ramen{
+    background-color: var(--rd);
+}
+
+footer{
+    border: dotted 3px;
+    padding: 3rem;
+}
+
+footer p{
+    text-align: center;
+}
