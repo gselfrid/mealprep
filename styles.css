@@ -143,3 +143,30 @@ footer{
 footer p{
     text-align: center;
 }
+
+
+@media screen and (min-width: 740px){
+    body{
+        max-width: 740px;
+    }
+}
+
+@media screen and (min-width: 1080px){
+  body{
+    max-width: 1080px;
+  }
+  
+  nav ul{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  
+  main #grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #grid section{
+    border-left: 3px dotted;
+  }
+  
+}
